@@ -37,10 +37,3 @@ program.parse();
 
 const options = program.opts();
 invokeAction(options)
-
-
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "1DEXoP8AuCGYc1YgoQ6hw" });
-// invokeAction({ action: "add", name: "name", email: "email", phone: "phone" });
-// invokeAction({ action: "remove", id: "rsKkOQUi80UsgVPCcLZZW" });
