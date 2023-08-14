@@ -22,7 +22,7 @@ async function listContacts() {
 async function getContactById(contactId) {
   
   const data = await read();
-  return data.find(contact => contact.id === contactId || null);
+  return data.find(contact => contact.id === contactId )|| null;
 }
 
 async function removeContact(contactId) {
